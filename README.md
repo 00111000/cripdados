@@ -25,13 +25,8 @@ pip install cryptography
 ```
 
 📦 Como usar
-Clone o repositório e execute:
+Apenas baixa o arquivo crip e armazena ele junto aos arquivos que deseja criptografar
 
-```
-git clone https://github.com/seu-usuario/filecrypt.git
-cd filecrypt
-python criptografar.py
-```
 🔧 Menu principal:
 ```
 c = Criptografar arquivo
