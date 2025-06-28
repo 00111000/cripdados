@@ -20,37 +20,31 @@
 
 Instale com:
 
-```bash
+```
 pip install cryptography
+```
+
 📦 Como usar
 Clone o repositório e execute:
 
-bash
-Copiar
-Editar
+```
 git clone https://github.com/seu-usuario/filecrypt.git
 cd filecrypt
 python criptografar.py
+```
 🔧 Menu principal:
-ini
-Copiar
-Editar
+```
 c = Criptografar arquivo
 d = Descriptografar arquivo
 s = Sair
+```
 🧠 Como funciona
 Ao criptografar um arquivo:
-
 É gerada uma chave única (Fernet key)
-
 Essa chave é salva em chave.txt
-
 O conteúdo do arquivo é criptografado e sobrescrito
-
 Ao descriptografar:
-
 A chave de chave.txt é usada
-
 O conteúdo criptografado é restaurado ao original
 
 ⚠️ Não perca o arquivo chave.txt, ele é essencial para recuperar o conteúdo!
